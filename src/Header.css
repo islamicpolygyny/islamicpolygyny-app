@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: .2rem solid var(--ip-blue);
+}
+
+
+.header_logo{
+    object-fit: contain;
+    height: 3rem;
+   
+}
+
+.header_icon{
+    padding: 1rem;
+    color: var(--ip-blue);
+}
